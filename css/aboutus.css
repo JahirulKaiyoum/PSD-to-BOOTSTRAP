@@ -1,0 +1,167 @@
+*{
+    margin:0 ;
+    padding: 0;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+header {
+    box-shadow: rgba(32, 34, 35, 0.15) 0px 1px 0px 4px;
+}
+.H-one {
+    padding-bottom: 25px;
+    padding-top: 66px;
+}
+
+.H-one h1 {
+    color: #505050;
+    font-family: Pristina;
+    font-size: 43px;
+}
+.H-two {
+    padding-top: 70px;
+    padding-bottom: 25px;
+}
+.H-two nav ul {
+    list-style: none;
+}
+.H-two nav ul li {
+    display: inline-block;
+    
+    margin: 10px 17px;
+    color: #4489a0;
+}
+.H-two nav ul li a{
+    color: #4489a0;
+}
+.About {
+    padding-bottom: 120px;
+}
+.About-content {
+    padding-top: 62px;
+}
+.About-content h1 {
+    font-size: 53px;
+}
+.About-content p {
+    text-align: justify;
+    margin-top: 88px;
+    font-size: 13px;
+}
+
+.About-img {
+    padding-top: 62px;
+    padding-bottom: 130px;
+    position: relative;
+}
+.pos-one {
+    position: absolute;
+    top: 15%;
+    right: 378px;
+}
+.pos-two {
+    position: absolute;
+    top: 15%;
+    left: 90px;
+}
+.pos-three {
+    position: absolute;
+    left: 27%;
+    top: 20%;
+}
+.About-img p {
+    position: absolute;
+    bottom: 1px;
+    text-align: justify;
+    font-size: 13px;
+    margin-left: 43px;
+}
+footer{
+    background-color: #ef4035;
+}
+.footer-content {
+    padding-top: 30px;
+}
+.footer-content p {
+    text-align: center;
+}
+
+
+                    /* Media query */
+
+/* mobile device*/
+@media(min-width:320px) and (max-width:500px){
+.H-one {
+    padding-bottom: 15px;
+    padding-top: 40px;
+}
+.H-two {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.About-content {
+    padding-top: 30px;
+}
+.About-content p {
+    text-align: justify;
+    margin-top: 25px;
+    font-size: 13px;
+}
+
+.About-img {
+    padding-top: 62px;
+    padding-bottom: 300px;
+    position: relative;
+  
+}
+.pos-one {
+    position: absolute;
+    top: 2%;
+    left:2%;
+    width: 200px;
+    height: 180px;
+}
+.pos-two {
+    position: absolute;
+    top: 2%;
+    left: 90px;
+    width: 200px;
+    height: 180px;
+}
+.pos-three {
+    position: absolute;
+    left: 27%;
+    top: 8%;
+    width: 320px;
+
+}
+.About-img p {
+    position: absolute;
+    bottom: 1px;
+    font-size: 13px;
+    top: 55%;
+    margin-left: 0px;
+    text-align: justify;
+}
+.About {
+    padding-bottom: 30px;
+}
+
+}
+/* ipad device*/
+@media(min-width:501.01px) and (max-width:768px){
+
+
+}
+/* laptop/desktop device*/
+@media(min-width:768.01px) and (max-width:1200px){
+
+
+}
+/* large device*/
+@media(min-width:1200.01px){
+
+
+}

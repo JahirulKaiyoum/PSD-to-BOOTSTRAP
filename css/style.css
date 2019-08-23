@@ -1,0 +1,237 @@
+*{
+    margin:0 ;
+    padding: 0;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.Banner {
+    background-image: url(../img/homepage.png);
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 107px;
+}
+.H-one h1 {
+    color: #fafd17;
+    font-family: Pristina;
+    font-size: 43px;
+}
+.H-two{
+
+}
+.H-two nav ul {
+    list-style: none;
+}
+.H-two nav ul li {
+    display: inline-block;
+    
+    margin: 10px 17px;
+    color: #f6f6f6;
+}
+.H-two nav ul li a{
+    color: #f6f6f6;
+}
+
+.underline {
+    display: block;
+    width: 25px;
+    border-bottom: 1.5px solid #ffffff;
+    margin-top: 75px;
+}
+
+.call {
+    padding-top: 35px;
+    padding-bottom: 145px;
+}
+
+
+.call h1 {
+    background-color: #0909047d;
+    color: #f6f9fa;
+    padding: 6px;
+}
+.call p {
+    color: #f6f9fa;
+    padding-top: 20px;
+}
+.cntc-btn {
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 10px 76px;
+    border-bottom-color: #f6f6f6;
+    border-top-color: #f6f6f6;
+    border-left-color: #f6f6f6;
+    border-right-color: #f6f6f6;
+    border-radius: 1px;
+}
+
+.welcome{
+    background-color: #f6f6f6;
+}
+
+
+
+.wlcome-content {
+    padding-top: 124px;
+    padding-bottom: 48px;
+}
+.wlcome-content h1 {
+    color: #333333;
+    font-size: 39px;
+    font-family: Times New Roman;
+}
+.underline-one {
+    display: block;
+    width: 25px;
+    border-bottom: 1.5px solid #28282e;
+    padding-top: 20px;
+}
+.wlcome-content p {
+    color: #888888;
+    font-size: 17px;
+    padding-top: 7px;
+}
+.wlcome-content underline{
+    display: block;
+    width: 50px;
+    border-bottom: 1.5px solid black;
+    margin-top: 160px;
+}
+.car-img{
+position: relative;
+}
+.pos-one {
+    position: absolute;
+    top: 43%;
+    right: 37px;
+}
+.pos-two {
+    position: absolute;
+    top: 54%;
+    right: 24%;
+    width: 250px;
+}
+
+.TITLE {
+    background-color: #28282e;
+}
+.title-content {
+    padding: 130px 0px;
+}
+.title-content h1 {
+    color: #ffffff;
+    font-size: 45px;
+}
+
+.title-content p {
+    color: #f1f1f1;
+    font-size: 17px;
+    padding-top: 30px;
+}
+.title-btn {
+    background: transparent;
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
+    border-left-color: #ffffff;
+    border-right-color: #ffffff;
+    margin-top: 39px;
+    padding: 12px;
+    border-radius: 1px;
+}
+
+.title-img {
+    padding-top: 272px;
+    padding-left: 62px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.underline-two {
+    display: block;
+    width: 25px;
+    border-bottom: 1.5px solid #ffffff;
+    margin-top: 38px;
+}
+footer{
+    background-color: #ef4035;
+}
+.footer-content {
+    padding-top: 30px;
+}
+.footer-content p {
+    text-align: center;
+}
+
+
+                                    /* Media query */
+
+/* mobile device*/
+@media(min-width:320px) and (max-width:500px){
+    .wlcome-content {
+        padding-top: 50px;
+        padding-bottom: 48px;
+    }
+    
+    .cntc-btn {
+        margin-top :50px;
+        margin-left: 80px;
+    }
+    .car-img{
+        position: relative;
+        padding-bottom: 45%;
+
+        }
+        .pos-one {
+            position: absolute;
+            top: 8%;
+            left: .5%;
+        }
+        .pos-two {
+            position: absolute;
+            top: 15%;
+            right: 9.5%;
+            width: 250px;
+        }
+        .title-content {
+            padding: 100px 0px;
+        }
+
+        .title-btn {
+           
+            margin-top: 39px;
+            margin-left: 37%;
+           
+        }
+        .title-img {
+            padding-top: 150px;
+          
+            position: relative;
+            
+        }
+
+        .image-three{
+            position: absolute;
+            top:5%;
+            left: 3.5%;
+            width: 450px;
+        }
+
+}
+/* ipad device*/
+@media(min-width:501.01px) and (max-width:768px){
+    
+}
+/* laptop/desktop device*/
+@media(min-width:768.01px) and (max-width:1200px){
+
+
+}
+/* large device*/
+@media(min-width:1200.01px){
+
+
+}

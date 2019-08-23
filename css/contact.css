@@ -1,0 +1,180 @@
+*{
+    margin:0 ;
+    padding: 0;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    box-shadow: rgba(32, 34, 35, 0.15) 0px 1px 0px 4px;
+}
+.H-one {
+    padding-bottom: 25px;
+    padding-top: 66px;
+}
+
+.H-one h1 {
+    color: #505050;
+    font-family: Pristina;
+    font-size: 43px;
+}
+.H-two {
+    padding-top: 70px;
+    padding-bottom: 25px;
+}
+.H-two nav ul {
+    list-style: none;
+}
+.H-two nav ul li {
+    display: inline-block;
+    
+    margin: 10px 17px;
+    color: #4489a0;
+}
+.H-two nav ul li a{
+    color: #4489a0;
+}
+
+.Contact {
+    background: #ee4a3f;
+    
+}
+.Contact-content {
+    padding-top: 60px;
+    padding-bottom: 55px;
+}
+.Contact-content h1 {
+    color: #ffffff;
+    font-size: 53px;
+    margin-bottom: 40px;
+}
+.image-one {
+    margin-left: 10px;
+}
+.Contact-content p {
+    font-size: 13px;
+    margin-top: 30px;
+    color: #FFF;
+    text-align: justify;
+}
+.contact-img {
+    padding-top: 60px;
+    padding-bottom: 55px;
+}
+.pos-one {
+    position: absolute;
+    top: 19%;
+    left: 15%;
+}
+.pos-two {
+    top: 19%;
+    position: absolute;
+    right: 10%;
+}
+
+.contact-form {
+    padding-bottom: 60px;
+}
+label{
+    color: #ffffff;
+}
+
+.form-control {
+    width: 90%;
+    height: 55px;
+    background: #ff6258;
+    border-radius: 1px;
+    border-bottom-color: #ff6258;
+    border-top-color: #ff6258;
+    border-right-color: #ff6258;
+    border-left-color: #ff6258;
+}
+.cstm-btn {
+    margin: 75px 20px;
+    background: transparent;
+    border: none;
+    font-family: inherit;
+    font-size: 36px;
+}
+.cstm-btn {
+    margin: 57px 41px;
+    background: transparent;
+    border: none;
+    font-family: inherit;
+    font-size: 36px;
+}
+
+footer {
+    background-color: #ef4035;
+}
+.footer-content {
+    padding-top: 30px;
+}
+.footer-content p{
+    text-align: center;
+}
+                    /* Media query */
+
+/* mobile device*/
+@media(min-width:320px) and (max-width:500px){
+    .contact-img {
+      
+        padding: 138px 0px;
+    }
+    .pos-one {
+        position: absolute;
+        top: 0%;
+        left: 11%;
+    }
+    .pos-two {
+        top: 0%;
+        position: absolute;
+        right: 10%;
+    }
+    .form{
+        margin-top: 50px;
+    }
+
+    .form-group{
+        margin-top: 20px;
+    }
+    
+    .contact-form {
+        padding-bottom: 5px;
+    }
+
+    .cstm-btn {
+        margin: 75px 20px;
+        background: transparent;
+        border: none;
+        font-family: inherit;
+        font-size: 36px;
+    }
+    .cstm-btn {
+        margin: 30px 150px;
+        background: transparent;
+        border: none;
+        font-family: inherit;
+        font-size: 36px;
+    }
+    .form-control {
+        width: 98%;
+    }
+
+}
+/* ipad device*/
+@media(min-width:500.01px) and (max-width:768px){
+
+
+}
+/* laptop/desktop device*/
+@media(min-width:768.01px) and (max-width:1200px){
+
+
+}
+/* large device*/
+@media(min-width:1200.01px){
+
+
+}
